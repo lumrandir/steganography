@@ -1,4 +1,6 @@
-require 'text_steganography'
+#!/usr/bin/env ruby19
+
+require 'graphic_steganography'
 
 string = gets
-TextSteganography.hide string, "container.txt"
+GraphicSteganography.hide string, "container.bmp"
