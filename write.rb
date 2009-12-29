@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby19
 
+require 'rubygems'
 require 'graphic_steganography'
 
 string = gets
-GraphicSteganography.hide string, "container.bmp"
+GraphicSteganography.hide "container.bmp", string

@@ -1,3 +1,8 @@
-require 'text_steganography'
+#!/usr/bin/env ruby19
 
-puts TextSteganography.seek "container.txt"
+require 'rubygems'
+require 'graphic_steganography'
+
+str = " " * 256
+GraphicSteganography.seek "container.bmp", str
+puts str
